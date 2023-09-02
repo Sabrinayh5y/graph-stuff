@@ -1,0 +1,104 @@
+[
+    {
+        "title": "折线图",
+        "en": "line",
+        "children": []
+    },
+    {
+        "title": "柱状图",
+        "en": "bar",
+        "children": []
+    },
+    {
+        "title": "饼图",
+        "en": "pie",
+        "children": [
+            {
+                "title": "简单的饼图",
+                "en": "PieSimple",
+                "icon": "PieSimple.webp"
+            }
+        ]
+    },
+    {
+        "title": "散点图",
+        "en": "scatter",
+        "children": []
+    },
+    {
+        "title": "地理坐标/地图",
+        "en": "map",
+        "children": []
+    },
+    {
+        "title": "K线图",
+        "en": "candlestick",
+        "children": []
+    },
+    {
+        "title": "雷达图",
+        "en": "radar",
+        "children": []
+    },
+    {
+        "title": "关系图",
+        "en": "graph",
+        "children": []
+    },
+    {
+        "title": "树图",
+        "en": "tree",
+        "children": [
+            {
+                "title": "从左到右树状图",
+                "en": "TreeLR",
+                "icon": "TreeLR.png"
+            }
+        ]
+    },
+    {
+        "title": "矩形树图",
+        "en": "treemap",
+        "children": []
+    },
+    {
+        "title": "旭日图",
+        "en": "sunburst",
+        "children": []
+    },
+    {
+        "title": "平行坐标系",
+        "en": "parallel",
+        "children": []
+    },
+    {
+        "title": "桑基图",
+        "en": "sankey",
+        "children": []
+    },
+    {
+        "title": "漏斗图",
+        "en": "funnel",
+        "children": []
+    },
+    {
+        "title": "仪表盘",
+        "en": "gauge",
+        "children": []
+    },
+    {
+        "title": "数据区域缩放",
+        "en": "dataZoom",
+        "children": []
+    },
+    {
+        "title": "自定义系列",
+        "en": "custom",
+        "children": []
+    },
+    {
+        "title": "三维图形",
+        "en": "WebGL",
+        "children": []
+    }
+]

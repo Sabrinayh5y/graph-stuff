@@ -1,0 +1,15 @@
+.dialog-view {
+    .mask {
+        background-color: rgba(230, 227, 227, 0.726);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        display: none;
+
+        &:not(:last-child) {
+            display: block;
+        }
+    }
+}
