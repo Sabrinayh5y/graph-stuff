@@ -111,7 +111,13 @@
     {
         "title": "自定义系列",
         "en": "custom",
-        "children": []
+        "children": [
+            {
+                "title": "金额波浪球",
+                "en": "MoneySchedule",
+                "icon": "MoneySchedule.jpeg"
+            }
+        ]
     },
     {
         "title": "三维图形",

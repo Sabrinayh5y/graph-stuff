@@ -14,9 +14,14 @@ let PieSimple = LazyComponent(() => import('./pages/PieSimple/index'))
 let GaugeBarometer = LazyComponent(() => import('./pages/GaugeBarometer/index'))
 let TreeTB = LazyComponent(() => import('./pages/TreeTB/index'))
 let LineMultipleXAxis = LazyComponent(() => import('./pages/LineMultipleXAxis/index'))
+let MoneySchedule = LazyComponent(() => import('./pages/MoneySchedule/index'))
 
 const App: React.FC = (): JSX.Element => {
   const routing = useRoutes([
+    {
+      path: "/MoneySchedule",
+      element: <MoneySchedule />
+    },
     {
       path: "/LineMultipleXAxis",
       element: <LineMultipleXAxis />
