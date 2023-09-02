@@ -1,15 +1,48 @@
-.dialog-view {
-    .mask {
-        background-color: rgba(230, 227, 227, 0.726);
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100vw;
-        height: 100vh;
-        display: none;
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
 
-        &:not(:last-child) {
-            display: block;
+.dialog-view {
+    &>div {
+        &>div {
+            z-index: 11;
         }
+
+        &.mask {
+            background-color: rgb(230 227 227 / 53%);
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            display: none;
+            z-index: 10;
+
+            &:not(:last-child) {
+                display: block;
+            }
+        }
+    }
+}
+
+.info-btn {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: red;
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 6px 2px #FF5722;
+
+    &:hover {
+        outline: 3px solid red;
+        text-decoration: underline;
     }
 }

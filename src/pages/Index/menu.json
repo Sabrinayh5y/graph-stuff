@@ -2,7 +2,13 @@
     {
         "title": "折线图",
         "en": "line",
-        "children": []
+        "children": [
+            {
+                "title": "多X轴折线图",
+                "en": "LineMultipleXAxis",
+                "icon": "LineMultipleXAxis.webp"
+            }
+        ]
     },
     {
         "title": "柱状图",
@@ -53,6 +59,11 @@
                 "title": "从左到右树状图",
                 "en": "TreeLR",
                 "icon": "TreeLR.png"
+            },
+            {
+                "title": "从上到下树状图",
+                "en": "TreeTB",
+                "icon": "TreeTB.jpeg"
             }
         ]
     },
@@ -84,7 +95,13 @@
     {
         "title": "仪表盘",
         "en": "gauge",
-        "children": []
+        "children": [
+            {
+                "title": "气压表",
+                "en": "GaugeBarometer",
+                "icon": "GaugeBarometer.webp"
+            }
+        ]
     },
     {
         "title": "数据区域缩放",

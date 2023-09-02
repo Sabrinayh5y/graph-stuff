@@ -16,24 +16,6 @@
             background-size: auto 80%;
             font-family: cursive;
         }
-
-        &>nav {
-            position: fixed;
-            right: 0;
-            top: 0;
-            line-height: 50px;
-
-            &>a {
-                margin-right: 20px;
-                color: #2196F3;
-                font-size: 14px;
-                text-decoration: underline;
-
-                &:hover {
-                    font-weight: 800;
-                }
-            }
-        }
     }
 
     &>.content {
@@ -118,6 +100,7 @@
                                 transition: 0.3s ease-in-out;
                                 border-radius: 5px;
                                 box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+                                background-color: white;
 
                             }
 

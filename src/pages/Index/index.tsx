@@ -36,10 +36,6 @@ class Index extends React.Component {
                 <h2>
                     Graph Stuff
                 </h2>
-                <nav>
-                    <a href="https://oi-contrib.github.io/VISLite/" target="_blank">powered by VISLite</a>
-                    <a href="https://github.com/Sabrinayh5y/graph-stuff" target="_blank">查看源码</a>
-                </nav>
             </header>
             <div className="content">
                 <div className="nav">

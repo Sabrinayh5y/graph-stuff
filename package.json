@@ -1,7 +1,7 @@
 {
   "name": "graph-stuff",
-  "version": "0.1.0",
-  "description": "汇集一些常用图标用例，cool、faster、stronger",
+  "version": "0.1.1",
+  "description": "本项目是一些用例，汇集一些常用图表，主要基于VISLite开发，我们会逐步丰富。",
   "scripts": {
     "dev": "webpack server --config ./config/webpack.dev.js",
     "build": "webpack --config ./config/webpack.prod.js"
@@ -32,6 +32,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.4",
     "redux": "^4.2.1",
-    "vislite": "^0.4.1-beta.3"
+    "vislite": "^0.4.1"
   }
 }

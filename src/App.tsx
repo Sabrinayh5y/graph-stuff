@@ -11,9 +11,16 @@ import dialogs from './dialogs/lazy-load'
 let Index = LazyComponent(() => import('./pages/Index/index'))
 let TreeLR = LazyComponent(() => import('./pages/TreeLR/index'))
 let PieSimple = LazyComponent(() => import('./pages/PieSimple/index'))
+let GaugeBarometer = LazyComponent(() => import('./pages/GaugeBarometer/index'))
+let TreeTB = LazyComponent(() => import('./pages/TreeTB/index'))
+let LineMultipleXAxis = LazyComponent(() => import('./pages/LineMultipleXAxis/index'))
 
 const App: React.FC = (): JSX.Element => {
   const routing = useRoutes([
+    {
+      path: "/LineMultipleXAxis",
+      element: <LineMultipleXAxis />
+    },
     {
       path: "/TreeLR",
       element: <TreeLR />
@@ -21,6 +28,14 @@ const App: React.FC = (): JSX.Element => {
     {
       path: "/PieSimple",
       element: <PieSimple />
+    },
+    {
+      path: "/GaugeBarometer",
+      element: <GaugeBarometer />
+    },
+    {
+      path: "/TreeTB",
+      element: <TreeTB />
     },
     {
       path: "/",
@@ -59,7 +74,29 @@ const App: React.FC = (): JSX.Element => {
     }
   }
 
-  return <><div className="main-view">{routing}</div><UiDialog></UiDialog></>
+  let openInfo = () => {
+    store.dispatch({
+      type: "openDialog",
+      data: {
+        id: "info"
+      }
+    })
+  }
+
+  return <>
+
+    {/* 主体内容 */}
+    <div className="main-view">
+      {routing}
+    </div>
+
+    {/* 弹框 */}
+    <UiDialog></UiDialog>
+
+    <button className='info-btn' onClick={openInfo}>
+      查看详情
+    </button>
+  </>
 }
 
 export default App
